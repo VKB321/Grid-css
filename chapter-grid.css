@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-gap: 10px;
+    background-color: antiquewhite;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid black;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-rows: auto;
+   
+    
+}
+
+.box{
+    margin: 10px 5px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: aqua;
+    font-size: x-large;
+}
+.v{ 
+ 
+    grid-column: 1/4;
+} 
